@@ -8,7 +8,6 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <groupId>org.javaee7</groupId>
     <artifactId>concurrency</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -16,6 +15,7 @@
 
     <modules>
         <module>managedexecutor</module>
+        <module>managedexecutor-jdk8</module>
         <module>managedscheduledexecutor</module>
         <module>managedthreadfactory</module>
         <module>dynamicproxy</module>
